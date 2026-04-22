@@ -22,7 +22,7 @@ class CustomerController extends Controller
     {
         Customer::create([
             'name' => $request->name,
-            'email' => $request->email,
+            'dob' => $request->dob,
             'phone' => $request->phone,
             'address' => $request->address,
         ]);
@@ -47,7 +47,7 @@ public function update(Request $request, $id)
 
     $customer->update([
         'name' => $request->name,
-        'email' => $request->email,
+        'dob' => $request->dob,
         'phone' => $request->phone,
         'address' => $request->address,
     ]);

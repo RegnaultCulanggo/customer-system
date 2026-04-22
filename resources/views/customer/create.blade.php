@@ -4,7 +4,7 @@
     @csrf
 
     <input type="text" name="name" placeholder="Name"><br>
-    <input type="email" name="email" placeholder="Email"><br>
+    <input type="date" name="dob">
     <input type="text" name="phone" placeholder="Phone"><br>
     <textarea name="address" placeholder="Address"></textarea><br>
 

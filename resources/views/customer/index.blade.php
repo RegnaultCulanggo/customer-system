@@ -96,7 +96,7 @@ button:hover {
 <table border="1">
     <tr>
         <th>Name</th>
-        <th>Email</th>
+        <th>Date of Birth</th>
         <th>Phone</th>
         <th>Address</th>
         <th>Actions</th>
@@ -105,7 +105,7 @@ button:hover {
     @foreach($customers as $customer)
     <tr>
     <td>{{ $customer->name }}</td>
-    <td>{{ $customer->email }}</td>
+    <td>{{ $customer->dob }}</td>
     <td>{{ $customer->phone }}</td>
     <td>{{ $customer->address }}</td>
 

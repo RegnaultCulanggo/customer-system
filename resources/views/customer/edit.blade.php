@@ -6,7 +6,7 @@
 
     <input type="text" name="name" value="{{ $customer->name }}" placeholder="Name"><br><br>
 
-    <input type="email" name="email" value="{{ $customer->email }}" placeholder="Email"><br><br>
+    <input type="date" name="dob" value="{{ $customer->dob }}">
 
     <input type="text" name="phone" value="{{ $customer->phone }}" placeholder="Phone"><br><br>
 
